@@ -1,0 +1,109 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+      <div class="inner cover vh-100 text-center mx-auto" id="intro-container">
+        <h1 class="display-1 text-warning" id="intro">Cuaca</h1>
+        <p class="lead" style="padding: 0 30px 0 30px;">Cuaca is a web app that can be used to monitor the weather in your area</p>
+        <p class="lead">
+          <a href="/weather" class="btn btn-outline-warning btn-lg">Try Cuaca!</a>
+        </p>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://octopustranslations.com/wp-content/uploads/2019/10/Octopus-Translations-Case-Studies-1-1024x700.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h3>Information</h3>
+              <p>Weather infromation from around the world</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://denwasensei.com/wp-content/uploads/2021/01/top-English-conversation-topics-1024x700.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h3>Prepare</h3>
+              <p>Organize your today's plan by knowing the weather</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.copperberg.com/wp-content/uploads/2020/12/AI_part_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h3>Community</h3>
+              <p>Join the community!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- after carousel -->
+
+      <!-- Start Feature Section -->
+      <section id="feature" class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-info-circle text-warning"></i>
+                        <div class="feature-content">
+                            <h4><b>Information</b></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-cloud text-warning"></i>
+                        <div class="feature-content">
+                            <h4><b>Weather Today</b></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-globe text-warning"></i>
+                        <div class="feature-content">
+                            <h4><b>Community</b></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fas fa-smile text-warning"></i>
+                        <div class="feature-content">
+                            <h4><b>Anonymous</b></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+    </section>
+    <!-- End Feature Section -->
+
+    <hr class="text-center bg-warning text-warning" style="width: 80%; margin: auto;">
+
+<!-- Copyright -->
+<footer class="text-center text-white bg-dark p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a style="text-decoration: none;" class="text-warning">Luqman Daniel</a>
+  </footer>
+  <!-- Copyright -->
+{% endblock %}
