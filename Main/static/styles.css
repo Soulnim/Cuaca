@@ -1,0 +1,90 @@
+nav {
+    padding: 20px;
+}
+.navbar {
+    padding: 20px;
+}
+#intro-page {
+    height: 800px;
+}
+#description {
+    color: white;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border-color: black;
+}
+#intro {
+    padding-top: 170px;
+}
+
+/*------------------------------------------------------ */
+/* Start Feature Section                              */
+/*------------------------------------------------------ */
+
+
+.services-section {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.feature-section {
+    padding-top: 100px;
+}
+
+.feature, .feature-2, .feature-3 {
+    padding-bottom: 80px;
+}
+
+.feature, .feature-3 {
+    text-align: center;
+}
+.feature h4,
+.feature-3 h4 {
+    font-size: 15px;
+    color: #666;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+.feature-2 h4{
+    font-size: 15px;
+    color: #666;
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+.feature p,
+.feature-2 p,
+.feature-3 p {
+    color: #444;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.feature i,
+.feature-3 i {
+    font-size:2.5em;
+    width: 80px;
+    height: 80px;
+   padding:25px;
+    margin-bottom: 10px;
+   position: relative;
+}
+
+.feature i {
+    /* color:#fff;
+	box-shadow: 0 0 0 30px transparent;
+	-webkit-transform: translate3d(2, 2, 2);
+	-moz-transform: translate3d(2, 2, 2);
+	-o-transform: translate3d(2, 2, 2);
+	transform: translate3d(2, 2, 2);
+	-webkit-transition: box-shadow .6s ease-in-out;
+	-moz-transition: box-shadow .6s ease-in-out;
+	-o-transition: box-shadow .6s ease-in-out;
+	transition: box-shadow .6s ease-in-out; */
+
+
+/* contact section */
