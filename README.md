@@ -82,7 +82,6 @@ Overall it is good.
 - Reddit
 - Discord
 - Quora
-- My mum
 
 # Final words
 I want to say thank you to the cs50 staff and community for the courses.
