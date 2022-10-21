@@ -5,7 +5,7 @@ This is my HarvardX CS50 Final Project!
 
 ### Description
 
-Hi, my name i Luqman and I'm from Malaysia.
+Hi, my name is Luqman and I'm from Malaysia.
 
 *I'd like to deploy my web app to a server , but i think they dont accept the cs50's SQL format
 and maybe i need to use the SQLAlchemy next time.
