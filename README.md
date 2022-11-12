@@ -21,7 +21,7 @@ weather in searched area with an API.
 Why it is called Cuaca?
 Well, weather is called cuaca in my native language(Malay) and it quite simple too.
 
-# specifications
+# Specifications
 
 I had implemented both backend and frontend in building the app.
 
@@ -31,7 +31,7 @@ Technology used:
 3. HTML/CSS
 4. JavaScript
 
-# login page
+# Login page
 
 I had also build the login page for the user before they can use the app.
 
@@ -46,27 +46,27 @@ Well, I love to collect user data.
 If the user is not register yet, they can go to the register page to register, but if they had done,
 they can go to login page instead
 
-# homepage
+# Homepage
 
 In the homepage, I had build and designed to look like a product landing page.
 And it is quite simple.
 
 To proceed to the weather app, the user can click the 'Try Cuaca!' button in the middle.
 
-# weather app page
+# Weather app page
 
 I had used API_KEY from openweatherapp.com.
 it contains many informations such as temperature, longitud, latitude and icon fo =r the weather.
 
 I had choose only temperature, icon, and desciption only to make it simple as possible.
 
-# my experience
+# My experience
 
 For the first day, I had actually planned to build a chat app, but none of the resources work.
 So, i got to plan B and it go well
 Overall, it is a fun experience as i had to build an app of my own (except the debugging part).
 
-# problem during building project
+# Problem during building project
 
 When i try to build the weather part, It got so many error. As i learned to build it by following a tutorial (Thanks PrettyPrinted fro the resources)
 I had to challenge myself to convert the SQLALchemy format to CS50's SQL format and it is so painful.Glad i make it to the end.
